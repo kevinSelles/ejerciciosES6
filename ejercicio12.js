@@ -15,3 +15,11 @@ const mainCharacters = [
   "Anakin",
   "Obi-Wan",
 ];
+
+function findArrayIndex(array, text) {
+  const personajes = array.indexOf(text)
+
+  return personajes;
+}
+
+console.log(findArrayIndex(mainCharacters, "Rey"));
